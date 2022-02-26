@@ -18,7 +18,9 @@ class _ProfilePageState extends State<ProfilePage> {
       appBar: buildAppBar(context),
       body: ListView(
         physics: BouncingScrollPhysics(),
-        children: [],
+        children: [
+          ProfileWidget(),
+        ],
       ),
     );
   }
