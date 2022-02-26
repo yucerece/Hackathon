@@ -1,10 +1,10 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatefulWidget {
-  _ProfilePageState createState() {
-    return _ProfilePageState();
-  }
+  const ProfilePage({key}) : super(key: key);
+
+  @override
+  _ProfilePageState createState() => _ProfilePageState();
 }
 
 class _ProfilePageState extends State<ProfilePage> {
@@ -15,8 +15,10 @@ class _ProfilePageState extends State<ProfilePage> {
         alignment: Alignment.center,
         height: MediaQuery.of(context).size.height,
         child: Text(
-          "This is home page",
-          style: TextStyle(fontSize: 20),
+          "This is profile page",
+          style: TextStyle(
+            fontSize: 20,
+          ),
         ),
       ),
     );
