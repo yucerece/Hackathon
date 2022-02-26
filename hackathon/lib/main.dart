@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hackathon/widget/profile_page.dart';
+import 'package:hackathon/page/profile_page.dart';
 
 void main() {
   runApp(MyApp());
