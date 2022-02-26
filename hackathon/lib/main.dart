@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hackathon/page/profile_page.dart';
+//import 'package:hackathon/page/profile_page.dart';
+import 'package:hackathon/widget/dashboard.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Flutter Demo', home: ProfilePage());
+    return MaterialApp(title: 'Flutter Demo', home: Dashboard());
   }
 }
 
