@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hackathon/page/profile_page.dart';
 import 'package:hackathon/page/home_page.dart';
 
-List<Widget> data = [HomePage(), ProfilePage()];
+List<Widget> data = [HomePage(), ProfilePage(users)];
 
 class Dashboard extends StatefulWidget {
   @override

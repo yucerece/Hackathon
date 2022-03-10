@@ -1,11 +1,15 @@
 class User {
-  final String imagePath;
-  final String name;
-  final String surname;
-  final bool isDarkMode;
-  //final List allergens;
+  String imagePath;
+  String name;
+  String surname;
+  bool isDarkMode;
+  List<String> allergens;
 
-  const User({this.imagePath, this.name, this.surname, this.isDarkMode
-      //this.allergens,
-      });
+  User(String imagePath, String name, String surname, bool isDarkMode, List<String> allergens) {
+    this.imagePath = imagePath;
+    this.name = name;
+    this.surname = surname;
+    this.isDarkMode = isDarkMode;
+    this.allergens = allergens;
+  }
 }
